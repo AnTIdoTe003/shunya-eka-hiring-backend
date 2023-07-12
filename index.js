@@ -18,7 +18,7 @@ app.use(express.json())
 // CORS
 app.use(cors({
     credentials:true,
-    origin:'http://localhost:3000'
+    origin:'https://shunya-eka-hiring-frontend.vercel.app'
 }))
 
 // API Route 
